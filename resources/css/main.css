@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body main {
+  padding: 1em;
+}
+body main .wrapper-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+body main .wrapper-content article {
+  width: 100%;
+  background: rgba(0, 0, 255, 0.16);
+  padding: 1em;
+  border-radius: 10px;
+}
+body main .wrapper-content article .col-text {
+  display: flex;
+  flex-direction: column;
+}
+body main .wrapper-content article .col-text .from {
+  background: red;
+  padding: 0.2em 0.5em;
+  border-radius: 1000px;
+  width: fit-content;
+}
+body main .wrapper-content article .col-img {
+  max-width: 25vw;
+  height: auto;
+  max-height: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+body main .wrapper-content article .col-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
